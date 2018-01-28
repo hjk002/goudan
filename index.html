@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	ul,li{margin: 0;padding: 0;}
+	.box{
+		position: relative;
+		height: 400px;
+		width: 400px;
+		margin: 100px auto;
+		border-radius: 50%;
+	}	
+	.box li{
+		position: absolute;
+		top: 150px;
+		padding: 50px 0;
+		left: 0;
+		width: 200px;
+		height: 1px;
+		list-style: none;
+		background-color: #f00;
+		border-radius: 50%;
+		transform-origin: 200px 50px;
+		
+
+	}
+		/*花瓣1*/
+		.box li:nth-child(1){
+			transform: rotate(0deg);
+			z-index: 1;
+			animation:xiaowu1 5s infinite;
+		}
+		@keyframes xiaowu1{
+			50%{transform: rotate(0deg);}
+			100%{transform: rotate(0deg);}
+		}
+
+		/*花瓣2*/
+		.box li:nth-child(2){
+			transform: rotate(8deg);
+			z-index: 2;
+			animation:xiaowu2 5s infinite;
+		}
+		@keyframes xiaowu2{
+			50%{transform: rotate(30deg);}
+			100%{transform: rotate(8deg);}
+		}
+
+		/*花瓣3*/
+		.box li:nth-child(3){
+			transform: rotate(16deg);
+			z-index: 3;
+			animation:xiaowu3 5s infinite;
+		}
+		@keyframes xiaowu3{
+			
+			50%{transform: rotate(60deg);}
+			100%{transform: rotate(16deg);}
+		}
+
+
+		/*花瓣4*/
+		.box li:nth-child(4){
+			transform: rotate(24deg);
+			z-index: 4;
+			animation:xiaowu4 5s infinite;
+		}
+		@keyframes xiaowu4{
+			
+			50%{transform: rotate(90deg);}
+			100%{transform: rotate(24deg);}
+		}
+
+
+
+		/*花瓣5*/
+		.box li:nth-child(5){
+			transform: rotate(32deg);
+			z-index: 5;
+			animation:xiaowu5 5s infinite;
+		}
+		@keyframes xiaowu5{
+			
+			50%{transform: rotate(120deg);}
+			100%{transform: rotate(32deg);}
+		}
+
+
+
+
+
+		/*花瓣6*/
+		.box li:nth-child(6){
+			transform: rotate(40deg);
+			z-index: 6;
+			animation:xiaowu6 5s infinite;
+		}
+		@keyframes xiaowu6{
+			
+			50%{transform: rotate(150deg);}
+			100%{transform: rotate(40deg);}
+		}
+
+
+		/*花瓣7*/
+		.box li:nth-child(7){
+			transform: rotate(48deg);
+			z-index: 7;
+			animation:xiaowu7 5s infinite;
+		}
+		@keyframes xiaowu7{
+			
+			50%{transform: rotate(180deg);}
+			100%{transform: rotate(48deg);}
+		}
+
+
+		/*花瓣8*/
+		.box li:nth-child(8){
+			transform: rotate(56deg);
+			z-index: 2;
+			animation:xiaowu8 5s infinite;
+		}
+		@keyframes xiaowu8{
+			50%{transform: rotate(210deg);}
+			100%{transform: rotate(56deg);}
+		}
+
+
+
+		/*花瓣9*/
+		.box li:nth-child(9){
+			transform: rotate(64deg);
+			z-index: 9;
+			animation:xiaowu9 5s infinite;
+		}
+		@keyframes xiaowu9{
+			50%{transform: rotate(240deg);}
+			100%{transform: rotate(64deg);}
+		}
+
+
+
+
+
+		/*花瓣10*/
+		.box li:nth-child(10){
+			transform: rotate(72deg);
+			z-index: 10;
+			animation:xiaowu10 5s infinite;
+		}
+		@keyframes xiaowu10{
+			50%{transform: rotate(270deg);}
+			100%{transform: rotate(72deg);}
+		}
+
+
+
+		/*花瓣11*/
+		.box li:nth-child(11){
+			transform: rotate(80deg);
+			z-index: 11;
+			animation:xiaowu11 5s infinite;
+		}
+		@keyframes xiaowu11{
+			50%{transform: rotate(300deg);}
+			100%{transform: rotate(80deg);}
+		}
+
+
+
+		/*花瓣12*/
+		.box li:nth-child(12){
+			transform: rotate(88deg);
+			z-index: 12;
+			animation:xiaowu12 5s infinite;
+		}
+		@keyframes xiaowu12{
+			50%{transform: rotate(330deg);}
+			100%{transform: rotate(88deg);}
+		}		
+
+</style>
+<body>
+	<ul class="box">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>	
+</body>
+</html>
